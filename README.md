@@ -47,4 +47,16 @@ apt-get install -y --no-install-recommends \
         python3-setuptools \
 bash install.sh
 
+# pyvino
+git clone https://github.com/hampen2929/pyvino.git
+
+# jupyter notebook
+docker run -it --name notebook1 -p 8888:8888 intelpython/intelpython3_full /bin/bash
+pip install notebook
+jupyter notebook --port 8000 --ip=0.0.0.0 --allow-root
+
+
+# 
+
+
 
