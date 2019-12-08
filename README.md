@@ -34,5 +34,17 @@ tar -xf l_openvino_toolkit*
 cd l_openvino_toolkit_p_2019.3.376
 apt-get update && apt-get -y upgrade && apt-get autoremove -y
 
+apt-get install -y --no-install-recommends \
+        build-essential \
+        cpio \
+        curl \
+        git \
+        lsb-release \
+        pciutils \
+        python3.5 \
+        python3.5-dev \
+        python3-pip \
+        python3-setuptools \
+bash install.sh
 
 
